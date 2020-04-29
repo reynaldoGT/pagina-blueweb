@@ -1,0 +1,61 @@
+*
+	padding: 0
+	margin: 0
+	font-family: Raleway
+
+.menu
+	display: none
+header
+	width: 100%
+	background: rgba(0,0,0,.8)
+	height: 70px
+	position: fixed
+	z-index: 10
+	box-sizing: border-box
+
+	.ancho
+		width: 80%
+		height: 70px
+		// background: red
+		margin: auto
+		.logo
+			width: 30%
+			height: 70px
+			// background: blue
+			float: left
+			padding-top: 10px
+			box-sizing: border-box
+	p a
+		color : #fff
+		font-size: 40px
+		text-decoration: none
+		font-weight: bold
+
+
+nav
+	width: 70%
+	height: 70px
+	// background: olive
+	float: left
+	text-align: right
+	padding-top: 24px
+	box-sizing: border-box
+
+	ul li
+		display: inline
+
+		a
+			color: #fff
+			font-size: 17px
+			text-decoration: none
+			float: right
+			text-transform: uppercase
+			padding-left: 15px
+			font-weight: bold
+			letter-spacing: 1px
+			&:hover
+					color: #444
+@import _particulas.sass
+@import tabla.sass
+@import formulario
+@import responsive.sass
